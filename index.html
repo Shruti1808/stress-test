@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" id= "header">
+        <h2>Are you stressed, depressed or affected by anxiety? </h2><br>
+      </div>
+      <div class="jumbotron"id="content">
+        <form id="stress-quiz">
+          <div class="form-group">
+            <label for="warning">Check all warning signs that applies to you:</label><br>
+            <input type="checkbox" name="warningsign" value="loss of sleep">Loss of sleep<br>
+            <input type="checkbox" name="warningsign" value="dry mouth">Dry mouth<br>
+            <input type="checkbox" name="warningsign" value="short temper">Short temper<br>
+            <input type="checkbox" name="warningsign" value="anxiety">Anxiety<br>
+            <input type="checkbox" name="warningsign" value="Feeling overwhelmed">Feeling overwhelmed<br>
+            <input type="checkbox" name="warningsign" value="difficulty to make decisions">Difficulty to make decisions<br>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="symptoms">Check all symptoms that apply to you:</label><br>
+            <input type="checkbox" name="symptoms" value="Headaches">Headaches<br>
+            <input type="checkbox" name="symptoms" value="Palpitations">Palpitations<br>
+            <input type="checkbox" name="symptoms" value="Fatigue">Fatigue<br>
+            <input type="checkbox" name="symptoms" value="Irritability">Irritability<br>
+            <input type="checkbox" name="symptoms" value="Chest pain">Chest pain<br>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="coping">Stress Tolerance</label><br>
+            <input type="checkbox" name="coping" value="Mediate">Mediate<br>
+            <input type="checkbox" name="coping" value="Exercise">Exercise<br>
+            <input type="checkbox" name="coping" value="Timemanagement">Time Management<br>
+            <input type="checkbox" name="coping" value="Connect to others">Connect to others<br>
+            <input type="checkbox" name="coping" value="Eat a healthy diet">Eat a healthy diet<br>
+          </div>
+          <br>
+          <button type="submit" class= "btn btn-primary">Submit Survey</button>
+        </form>
+        <div class="result">
+          <p>
+            Thank You for taking this quiz. Your responses show that :<span></span>
+          </p>
+        </div>
+        </div>
+
+    </div>
+  </body>
+</html>
